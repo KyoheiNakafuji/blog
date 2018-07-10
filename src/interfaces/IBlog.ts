@@ -1,5 +1,7 @@
 export interface IBlog {
     content: string
+    description: string,
     id: string,
-    name: string,
+    img: string,
+    title: string,
 }

@@ -30,9 +30,60 @@ export function getLatestBlogs() {
         const latestBlogs: IBlog[] = [
             {
                 content: "content",
+                description: "",
                 id: "1",
-                name: "test"
-            }
+                img: "",
+                title: "test"
+            },
+            {
+                content: "content",
+                description: "",
+                id: "2",
+                img: "",
+                title: "test2"
+            },
+            {
+                content: "content",
+                description: "",
+                id: "3",
+                img: "",
+                title: "test2"
+            },
+            {
+                content: "content",
+                description: "",
+                id: "4",
+                img: "",
+                title: "test2"
+            },
+            {
+                content: "content",
+                description: "",
+                id: "5",
+                img: "",
+                title: "test2"
+            },
+            {
+                content: "content",
+                description: "",
+                id: "6",
+                img: "",
+                title: "test2"
+            },
+            {
+                content: "content",
+                description: "",
+                id: "7",
+                img: "",
+                title: "test2"
+            },
+            {
+                content: "content",
+                description: "",
+                id: "8",
+                img: "",
+                title: "test2"
+            },
         ];
         dispatch(getLatestBlogsSuccess(latestBlogs));
     };
